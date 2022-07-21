@@ -1,0 +1,148 @@
+body {
+    margin-top:0;
+    padding-top:0;
+    background-color: #DDDDDD;
+    overflow-x: hidden
+}
+
+p {
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+}
+
+.main {
+    color: #282828;
+    font-family: 'Manrope', sans-serif;
+}
+
+.logo {
+    font-style: normal;
+    font-size:2.5vw;
+}
+
+#logo_U {
+    font-weight: 800;
+    position: absolute;
+    left: 92%;
+    top:1.5%;
+
+    animation-name: fadeInU;
+    animation-duration: 0.67s;
+}
+
+#logo_slash {
+    display: inline-flex;
+    font-weight: 100;
+    position: absolute;
+    left: 94.5%;
+    top:1.5%;
+
+    animation-name: fadeInSlash;
+    animation-duration: .9s;
+}
+
+
+#logo_A {
+    font-weight: 800;
+    position: absolute;
+    left: 96%;
+    top:1.5%;
+
+    animation-name: fadeInA;
+    animation-duration: 1.2s;
+}
+
+#quote {
+    position: relative;
+    top:2vh;
+    left:15vw;
+    line-height: 5vw;
+    overflow-x: hidden;
+
+    font-style: normal;
+    font-weight: 800;
+    font-size:3vw;
+    
+    animation-name: fadeIn;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in;
+}
+
+#circle0 {
+    position: absolute;
+    overflow: hidden;
+    left: -10vw;
+    top: 20vw;
+    width: 60vw;
+    height: 60vw;
+    margin: 0 auto;
+    border: .7vh solid;
+    border-radius: 50%;
+    border-color: #ffffff;
+}
+
+#circle1 {
+    position: absolute;
+    overflow: hidden;
+    left: -19vw;
+    top: 10vw;
+    width: 80vw;
+    height: 80vw;
+    margin: 0 auto;
+    border: .7vh solid;
+    border-radius: 50%;
+    border-color: #ffffff;
+}
+
+#circle2 {
+    position: absolute;
+    overflow: hidden;
+    left: 47vw;
+    top: 80vw;
+    width: 60vw;
+    height: 60vw;
+    margin: 0 auto;
+    border: .7vh solid;
+    border-radius: 50%;
+    border-color: #ffffff;
+}
+
+#circle3 {
+    position: absolute;
+    overflow: hidden;
+    left: 37vw;
+    top: 70vw;
+    width: 80vw;
+    height: 80vw;
+    margin: 0 auto;
+    border: .7vh solid;
+    border-radius: 50%;
+    border-color: #ffffff;
+}
+
+
+
+
+
+@keyframes fadeIn {
+    0% { opacity: 0%; }
+    100% { opacity: 100%; }
+}
+
+
+@keyframes fadeInU {
+    0%, 80% { opacity: 0%; }
+    100% { opacity: 100%; }
+}
+
+@keyframes fadeInSlash {
+    0%,80% { opacity: 0%; }
+    100% { opacity: 100%; }
+}
+
+@keyframes fadeInA {
+    0%,70% { opacity: 0%; }
+    80%,100% { opacity: 100%; }
+}
+
+
